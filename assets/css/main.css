@@ -2631,6 +2631,7 @@
 
 		dl dd {
 			margin-left: 2em;
+			text-align: left;
 		}
 
 		dl.alt dt {
@@ -2687,6 +2688,7 @@
 					margin-right: auto;
 				}
 
+
 		header.major p {
 			font-size: 1.25em;
 			letter-spacing: -0.025em;
@@ -2704,6 +2706,7 @@
 	footer.major {
 		margin-top: 3em;
 	}
+
 
 	@media screen and (max-width: 736px) {
 
@@ -2843,7 +2846,7 @@
 	}
 
 		.features li {
-			width: calc(33.33333% - 2em);
+			width: calc(50% - 2em);
 			margin-left: 2em;
 			margin-top: 3em;
 			padding: 0;
@@ -3038,6 +3041,7 @@
 				display: block;
 				border-radius: 100%;
 				width: 16em;
+			  height: 16em;
 			}
 
 		@media screen and (max-width: 980px) {
@@ -3719,7 +3723,7 @@
 		#footer .copyright {
 			width: 100%;
 			margin: 2.5em 0 2em 0;
-			font-size: 0.8em;
+			font-size: 1em;
 			text-align: center;
 		}
 
