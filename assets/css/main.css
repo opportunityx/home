@@ -1623,11 +1623,11 @@
 	}
 
 	body {
-		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-color: #C22929;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(30deg, #FF9C30 15%, #C22929 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(30deg, #FF9C30 15%, #C22929 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(30deg, #FF9C30 15%, #C22929 85%);
+		background-image: url("images/overlay.png"), linear-gradient(30deg, #FF9C30 15%, #C22929 85%);
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1644,7 +1644,7 @@
 /* Type */
 
 	body {
-		background-color: #935d8c;
+		background-color: #C22929;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
@@ -2255,7 +2255,7 @@
 	input[type="radio"]:checked + label:before {
 		background-color: #ffffff;
 		border-color: #ffffff;
-		color: #935d8c;
+		color: #C22929;
 	}
 
 	input[type="checkbox"]:focus + label:before,
@@ -3140,10 +3140,35 @@
 				-ms-transition-delay: 0s;
 				transition-delay: 0s;
 				display: block;
-				margin: 0 0 1.5em 0;
+				margin: auto;
+				margin-bottom: -50px;
+				width: 300px;
+				height: 300px;
 			}
 
 				#header.alt .logo img {
+					display: block;
+					margin: 0 auto;
+					max-width: 75%;
+				}
+
+			#header.alt .logo-small {
+				-moz-transition: opacity 1.25s ease, -moz-transform 0.5s ease;
+				-webkit-transition: opacity 1.25s ease, -webkit-transform 0.5s ease;
+				-ms-transition: opacity 1.25s ease, -ms-transform 0.5s ease;
+				transition: opacity 1.25s ease, transform 0.5s ease;
+				-moz-transition-delay: 0s;
+				-webkit-transition-delay: 0s;
+				-ms-transition-delay: 0s;
+	 			transition-delay: 0s;
+				display: block;
+				margin: auto;
+				margin-bottom: -25px;
+				width: 150px;
+				height: 150px;
+			}
+
+				#header.alt .logo-small img {
 					display: block;
 					margin: 0 auto;
 					max-width: 75%;
@@ -3878,7 +3903,7 @@
 		  top: 0;
 		  height: 100%;
 		  width: 100%;
-		  background-color: #a96d89;
+		  background-color: #C22929;
 		  -webkit-transform: scaleX(0);
 		  -moz-transform: scaleX(0);
 		  -ms-transform: scaleX(0);
@@ -3900,7 +3925,7 @@
 		  text-align: center;
 		  font-size: 1.1rem;
 		  padding-bottom: 15px;
-		  color: #a96d89;
+		  color: #C22929;
 		  /* fix bug on Safari - text flickering while timeline translates */
 		  -webkit-transform: translateZ(0);
 		  -moz-transform: translateZ(0);
@@ -3930,18 +3955,18 @@
 		  transition: background-color 0.3s, border-color 0.3s;
 		}
 		.no-touch .cd-horizontal-timeline .events a:hover::after {
-		  background-color: #a96d89;
-		  border-color: #a96d89;
+		  background-color: #C22929;
+		  border-color: #C22929;
 		}
 		.cd-horizontal-timeline .events a.selected {
 		  pointer-events: none;
 		}
 		.cd-horizontal-timeline .events a.selected::after {
-		  background-color: #a96d89;
-		  border-color: #a96d89;
+		  background-color: #C22929;
+		  border-color: #C22929;
 		}
 		.cd-horizontal-timeline .events a.older-event::after {
-		  border-color: #a96d89;
+		  border-color: #C22929;
 		}
 		@media only screen and (min-width: 1100px) {
 		  .cd-horizontal-timeline {
@@ -4006,7 +4031,7 @@
 		  right: 0;
 		}
 		.no-touch .cd-timeline-navigation a:hover {
-		  border-color: #a96d89;
+		  border-color: #C22929;
 		}
 		.cd-timeline-navigation a.inactive {
 		  cursor: not-allowed;
