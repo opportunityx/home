@@ -1716,6 +1716,9 @@
 			column-gap: 2em;
 			text-align: justify;
 		}
+		p.list {
+			margin: 0 0 0 0;
+		}
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
@@ -2523,22 +2526,21 @@ form {
 
 	ol {
 		list-style: decimal;
-		margin: 0 0 2em 0;
-		padding-left: 1.25em;
+		margin: 0 0 .5em 0;
+		padding-left: .3em;
 	}
 
 		ol li {
-			padding-left: 0.25em;
+			padding-left: 0.1em;
 		}
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
 		padding-left: 1em;
 	}
 
 		ul li {
-			padding-left: 0.5em;
+			padding-left: 0.2em;
 		}
 
 		ul.alt {
@@ -2555,6 +2557,18 @@ form {
 					border-top: 0;
 					padding-top: 0;
 				}
+
+		ul.dashed {
+		  list-style-type: none;
+		}
+			ul.dashed > li {
+			  text-indent: -5px;
+			}
+
+			ul.dashed > li:before {
+				  content: "-   ";
+				  text-indent: -5px;
+			}
 
 		ul.icons {
 			cursor: default;
@@ -2581,6 +2595,8 @@ form {
 				display: inline-block;
 				padding: 0 1em 0 0;
 				vertical-align: middle;
+				text-align: center;
+				margin: auto;
 			}
 
 				ul.actions li:last-child {
