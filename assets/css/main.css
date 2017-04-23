@@ -1623,11 +1623,11 @@
 	}
 
 	body {
-		background-color: #C22929;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(30deg, #FF9C30 15%, #C22929 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(30deg, #FF9C30 15%, #C22929 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(30deg, #FF9C30 15%, #C22929 85%);
-		background-image: url("images/overlay.png"), linear-gradient(30deg, #FF9C30 15%, #C22929 85%);
+		background-color: #009999;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(30deg, #006699 15%, #009999 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(30deg, #006699 15%, #009999 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(30deg, #006699 15%, #009999 85%);
+		background-image: url("images/overlay.png"), linear-gradient(30deg, #006699 15%, #009999 85%);
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1644,7 +1644,7 @@
 /* Type */
 
 	body {
-		background-color: #C22929;
+		background-color: #009999;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
@@ -2255,7 +2255,7 @@
 	input[type="radio"]:checked + label:before {
 		background-color: #ffffff;
 		border-color: #ffffff;
-		color: #C22929;
+		color: #009999;
 	}
 
 	input[type="checkbox"]:focus + label:before,
@@ -3903,7 +3903,7 @@
 		  top: 0;
 		  height: 100%;
 		  width: 100%;
-		  background-color: #C22929;
+		  background-color: #009999;
 		  -webkit-transform: scaleX(0);
 		  -moz-transform: scaleX(0);
 		  -ms-transform: scaleX(0);
@@ -3925,7 +3925,7 @@
 		  text-align: center;
 		  font-size: 1.1rem;
 		  padding-bottom: 15px;
-		  color: #C22929;
+		  color: #009999;
 		  /* fix bug on Safari - text flickering while timeline translates */
 		  -webkit-transform: translateZ(0);
 		  -moz-transform: translateZ(0);
@@ -3955,18 +3955,18 @@
 		  transition: background-color 0.3s, border-color 0.3s;
 		}
 		.no-touch .cd-horizontal-timeline .events a:hover::after {
-		  background-color: #C22929;
-		  border-color: #C22929;
+		  background-color: #009999;
+		  border-color: #009999;
 		}
 		.cd-horizontal-timeline .events a.selected {
 		  pointer-events: none;
 		}
 		.cd-horizontal-timeline .events a.selected::after {
-		  background-color: #C22929;
-		  border-color: #C22929;
+		  background-color: #009999;
+		  border-color: #009999;
 		}
 		.cd-horizontal-timeline .events a.older-event::after {
-		  border-color: #C22929;
+		  border-color: #009999;
 		}
 		@media only screen and (min-width: 1100px) {
 		  .cd-horizontal-timeline {
@@ -4031,7 +4031,7 @@
 		  right: 0;
 		}
 		.no-touch .cd-timeline-navigation a:hover {
-		  border-color: #C22929;
+		  border-color: #009999;
 		}
 		.cd-timeline-navigation a.inactive {
 		  cursor: not-allowed;
