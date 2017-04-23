@@ -2049,9 +2049,62 @@
 
 /* Form */
 
-	form {
-		margin: 0 0 2em 0;
+form {
+	margin: 0 0 2.5rem 0;
+}
+
+	form .field {
+		margin: 0 0 1.5rem 0;
 	}
+
+		form .field.half {
+			width: 50%;
+			float: left;
+			padding: 0 0 0 0.75rem;
+		}
+
+			form .field.half.first {
+				padding: 0 0.75rem 0 0;
+			}
+
+	form > .actions {
+		margin: 1.875rem 0 0 0 !important;
+	}
+
+	@media screen and (max-width: 736px) {
+
+		form .field {
+			margin: 0 0 1.125rem 0;
+		}
+
+			form .field.half {
+				padding: 0 0 0 0.5625rem;
+			}
+
+				form .field.half.first {
+					padding: 0 0.5625rem 0 0;
+				}
+
+		form > .actions {
+			margin: 1.5rem 0 0 0 !important;
+		}
+
+	}
+
+	@media screen and (max-width: 480px) {
+
+		form .field.half {
+			width: 100%;
+			float: none;
+			padding: 0;
+		}
+
+			form .field.half.first {
+				padding: 0;
+			}
+
+	}
+
 
 	label {
 		display: block;
